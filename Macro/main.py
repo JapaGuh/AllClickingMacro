@@ -13,10 +13,9 @@ def main(page: ft.Page):
     page.window.maximizable = False
     page.window.icon = "MacroIcon.ico"
     page.window.center()
-    page.horizontal_alignment = ft.CrossAxisAlignment.START
 
     page.fonts = {
-        "Montserrat": "Python/Minecraft/Macro/assets/Montserrat/static/Montserrat-Bold.ttf"
+        "Montserrat": "assets/Montserrat/static/Montserrat-Bold.ttf"
     }
 
     isMacroRunning = False
