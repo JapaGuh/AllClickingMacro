@@ -6,7 +6,7 @@ import winsound
 import threading
 
 def main(page: ft.Page):
-    page.title = "AllClickingMacro"
+    page.title = "JapaLoop"
     page.window.width = 280
     page.window.height = 435
     page.window.resizable = False
@@ -21,7 +21,7 @@ def main(page: ft.Page):
     isMacroRunning = False
     clickCount = 0
     
-    txtMain = ft.Text(value = "All Clicking Macro", size = 22, weight = "bold", font_family = "Montserrat")
+    txtMain = ft.Text(value = "JapaLoop", size = 22, weight = "bold", font_family = "Montserrat")
     txtErrorDelay = ft.Text(value = "Invalid Delay", size = 12, color = ft.Colors.RED, visible = False)
     txtErrorKey = ft.Text(value = "Invalid Key Name", size = 12, color = ft.Colors.RED, visible = False)
     txtCounter = ft.Text(value = "", size = 10, color = ft.Colors.GREY_400, italic = True)
